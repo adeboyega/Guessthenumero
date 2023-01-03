@@ -131,3 +131,34 @@
   .label-score {
     margin-bottom: 2rem;
   }
+  @media (max-width: 600px) {
+    .between{
+      font-size: x-small;
+      transform: translate(1.5rem);
+    }
+    .right{
+      font-size: small;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .guess{
+      width: 150px;
+      transform: translateX(1rem);
+    }
+    .btncheck{
+      width: 120px;
+      transform: translateX(1rem);
+      font-size: small;
+      text-align: center;
+    }
+    h1{
+      font-size: medium;
+    }
+    .btnagain{
+      width: 120px;
+      height: 60px;
+      font-size: small;
+    }
+  }
